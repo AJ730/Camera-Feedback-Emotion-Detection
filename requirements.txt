@@ -9,7 +9,6 @@ attrs==22.1.0
 Automat==20.2.0
 bidict==0.22.0
 cachetools==5.2.0
-certifi @ file:///C:/b/abs_ac29jvt43w/croot/certifi_1665076682579/work/certifi
 charset-normalizer==2.1.1
 cinit==0.1.0
 colorama==0.4.5
