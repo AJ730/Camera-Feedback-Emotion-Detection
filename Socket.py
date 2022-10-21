@@ -100,10 +100,10 @@ if __name__ == '__main__':
 
                 if len(emotions) > 0:
                     value, count = counter.most_common()[0]
-                    # if value not in [ "Neutral, Surprised"]:
+                    if value not in [ "Neutral, Surprised"]:
                     # self.sc.send_message(value)
-                    c.detector.emotions.clear()
-                    sio.emit("emotion", value)
+                        c.detector.emotions.clear()
+                        sio.emit("emotion", value)
 
                 print(c.detector.emotions)
 
